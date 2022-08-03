@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+td {
+  width: 100px;
+  height: 100px;
+}
+
+table,
+tr,
+td {
+  border: 0.5px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  margin: auto;
+  position: relative;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  margin-left: 50%;
+  margin-top: 20px;
+  transform: translate(-50px, 0);
+}
+div {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-100px, -50px);
+  font-size: xx-large;
+  border: 1px solid black;
+  background-color: gray;
+  opacity: 0.8;
+  color: red;
+  z-index: 2;
+}
+.hidden {
+  display: none;
+}
